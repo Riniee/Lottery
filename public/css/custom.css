@@ -1,0 +1,440 @@
+.admin_account
+{
+    padding: 30px auto;
+}
+.admin_account .login-box, .register-box {
+    width: 750px;
+    margin: 20px auto 100px;
+    background-color: #ededed;
+    border: 2px solid #b7b7b7;
+    padding: 70px;
+}
+.admin_account .login-box-msg
+{
+    color:#5d5f5e;  
+    padding-top: 50px;
+}
+.table thead
+{
+    background-color: #c0cbd1;
+}
+.buyer_content_head
+{
+    width:750px;
+    margin: 20px auto;
+    color:#5d5f5e;
+}
+.buyer_content_head .input-group-addon {
+    padding: 6px 12px;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1;
+    color: #6898ac;
+    text-align: center;
+    background-color: transparent;
+    border: 0px solid #ccc;
+    border-radius: 0px;
+}
+.buyer_calendar_frm
+{
+    margin: 30px auto 20px;
+}
+.buyer_calendar_frm .btn
+{
+    border-radius: 0px !important;
+    background-color: #6898ac !important;
+    border-color:#6898ac !important;
+}
+.buyer_calendar_frm input
+{
+    border-color:#6898ac !important;
+}
+.buyer_list
+{
+    padding: 35px 0 !important;
+}
+.buyer_list h1
+{
+    color:#5d5f5e;
+    font-weight: bold;
+}
+.view_details
+{
+    cursor: pointer;
+}
+.busyer_list_details tr,th,td
+{
+    padding: 10px;
+}
+.modal-dialog 
+{
+    width: 750px;
+    margin: 50px auto;
+}
+.modal-header {
+    border-bottom-color: #6a6a6a;
+    text-align: center;
+    font-weight: bold;
+}
+.modal-title {
+    margin: 0;
+    line-height: 1.42857143;
+    font-weight: bold;
+    color: #5d5f5e;
+}
+.modal-body {
+    position: relative;
+    padding: 15px 50px;
+}
+.pagination
+{
+    display: inline-block;
+    padding-left: 0;
+    margin: 0px 0;
+    border-radius: 4px;
+    float: right;
+}
+.payment_history .btn-primary {
+    background-color: #6898ac !important;
+    border-color: #6898ac !important;
+    border-radius: 4px !important;
+    outline: 0 !important;    
+    padding: 2px 20px;
+    margin-left: 17px;
+}
+#example1_filter
+{
+    float: right;
+}
+.divider1
+{
+    background-color: #5d5f5e;
+    height: 1px;
+    width:350px;
+    margin: 0 auto;
+}
+.sidebar-menu li span
+{
+    padding-left: 15px;
+}
+.user_profile_img img
+{
+    float: right;
+}
+.payment_success .modal-header {
+    border-bottom-color: transparent;
+    text-align: center;
+    font-weight: bold;
+}
+.payment_success .modal-content {
+    position: relative;
+    background-color: #ededed;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 6px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    box-shadow: 0 3px 9px rgba(0,0,0,.5);
+}
+.payment_success .modal-dialog {
+    width: 250px;
+    margin: 50px auto;   
+    border-radius: 20px;
+}
+.payment_success .fa-2x {
+    font-size: 4em;
+    color: #4385f5;
+}
+.payment_success .btn-primary {
+    background-color: #3274e2 !important;
+    border-color: #3274e2 !important;
+    border-radius: 7px !important;
+    outline: 0 !important;
+    padding: 5px 22px;
+}
+.mechanic_profile .login-box-msg, .register-box-msg {
+    margin: 0;
+    text-align: center;
+    padding: 40px 20px 20px 20px;
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+}
+.mechanic_profile .login-box, .register-box {
+    width: 100%;
+    margin: 20px auto 100px;
+    background-color: #ededed;
+    border: 2px solid #b7b7b7;
+    padding: 20px;
+}
+.licence_details
+{
+    padding: 100px 0px;
+}
+.licence_img
+{
+    padding-top: 30px;
+}
+.licence_img img
+{
+    display: block;
+    margin: auto;
+}
+.approve_btn
+{
+    margin-right: 20px;
+    border-radius: 10px !important;
+}
+.deny_btn
+{
+    width: 80px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px !important;
+}
+.delete_profile
+{
+    cursor: pointer;
+}
+.profile_img img
+{
+    width:100px;
+    margin: 0 auto;
+    display: block;
+}
+.dash.display-flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.dash .thumbnail {
+    height: 100%;
+}
+.dashbord{
+    margin: 20px auto;    
+}
+.dash .thumbnail
+{
+    padding: 0px;
+}
+/* extra positioning */
+.dash .thumbnail {
+    display: flex;
+    flex-direction: column;
+}
+.dash .thumbnail .caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.orange
+{
+    background-color: #ff5e3a;
+    padding: 10px;
+    color: #fff;
+}
+.light_green
+{
+    background-color: #87c23f;
+    padding: 10px;
+    color: #fff;
+}
+.green
+{
+    background-color: #68c7b3;
+    padding: 10px;
+    color: #fff;
+}
+.light_blue
+{
+    background-color: #45c2e6;
+    padding: 10px;
+    color: #fff;
+}
+.blue
+{
+    background-color: #078bab;
+    padding: 10px;
+    color: #fff;
+}
+.dash h4
+{
+    margin: 0px;
+}
+.dash_content p
+{
+    font-size: 18px;
+}
+.dashbord
+{
+    width:800px;
+    margin: 30px auto;
+}
+.more_details h4
+{
+    margin: 10px auto!important;
+}
+.dash_list .more_details
+{
+    border-top: 2px solid #ddd;
+}
+.user_details, .buyers_details, .mechanic_details, .payement_details, .vehicle_details{
+    cursor: pointer;
+}
+.dash_list .more_details:before
+{
+    content: '';
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #ddd;
+    margin-top: -11px;
+    margin-left: 10px;
+}
+.text-red {
+    color: #00ff18!important;
+}
+.text-green {
+    color: #00c0ef !important;
+}
+.vehicle_sold a
+{
+    color:#fff !important;
+}
+/*#pieChart
+{
+    transform: rotate(252deg);
+}*/
+/*Responsive table
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+    table { 
+        width: 100%; 
+    }
+    
+    table, thead, tbody, th, td, tr { 
+        display: block; 
+    }
+   
+    thead tr { 
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    tr { border: 1px solid #ccc; }
+
+    td {       
+        border: none;
+        border-bottom: 1px solid #eee; 
+        position: relative;
+        padding-left: 50%; 
+    }
+
+    td:before {        
+        position: absolute;      
+        top: 6px;
+        left: 6px;
+        width: 45%; 
+        padding-right: 10px; 
+        white-space: nowrap;     
+        content: attr(data-column);
+
+        color: #000;
+        font-weight: bold;
+    }
+}*/
+@media(max-width:767px)
+{
+    .input-group {
+        position: relative;
+        display: block;
+        border-collapse: separate;
+    }
+    .buyer_content_head {
+        width: 100%;
+        margin: 20px auto;
+        /* color: #5d5f5e; */
+    }
+    .buyer_calendar_frm .btn {
+        border-radius: 0px !important;
+        background-color: #6898ac !important;
+        border-color: #6898ac !important;
+        margin-top: 20px;
+    }
+    .pagination {
+        display: inline-block;
+        padding-left: 0;
+        margin: 0px 0;
+        border-radius: 4px;
+        float: none;
+    }
+    #example1_filter {
+        float: none;
+    }
+    .approve_btn {
+        /* margin-right: 20px; */
+        border-radius: 10px !important;
+        width: 80px;
+        margin: 10px auto;
+        display: block;
+        float:none !important;
+    }
+    .licence_details {
+        padding: 0px 20px;
+    }
+    .payment_history .btn-primary {
+        background-color: #6898ac !important;
+        border-color: #6898ac !important;
+        border-radius: 4px !important;
+        outline: 0 !important;
+        padding: 2px 20px;
+        margin-left: 17px;
+        margin-bottom: 10px;
+    }
+    .modal-dialog {
+        width: 100%;
+        margin: 50px auto;
+    }
+    .divider1 {
+        background-color: #5d5f5e;
+        height: 1px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .dashbord
+    {
+        width:100%;
+    }
+    .dash_list
+    {
+        margin-bottom: 20px;
+    }
+}
+@media(min-width:768px) and (max-width:992px)
+{
+    .buyer_content_head {
+        width: 100%;
+        margin: 20px auto;
+        color: #5d5f5e;
+    }
+    .dashbord
+    {
+        width:100%;
+    }
+    .dash_list
+    {
+        margin-bottom: 20px;
+    }
+}
+@media(min-width:993px)and(max-width:1199px)
+{
+    .dashbord {
+        width:100%;
+    }
+}
